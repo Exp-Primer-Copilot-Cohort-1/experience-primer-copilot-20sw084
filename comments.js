@@ -6,7 +6,7 @@ const cors = require('cors');
 
 // Create app
 const app = express();
-// Use cors
+// Use cors 
 app.use(cors());
 // Use body parser
 app.use(bodyParser.json());
